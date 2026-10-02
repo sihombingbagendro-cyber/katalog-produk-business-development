@@ -1,12 +1,15 @@
 <?php
 
-// 1. Set direktori temporary untuk storage & compiled views Blade di Vercel (/tmp dapat ditulis/read-write)
+// 1. Set environment variables agar storage dan log menggunakan direktori temporary Vercel (/tmp)
 putenv('APP_STORAGE=/tmp/storage');
+putenv('LOG_CHANNEL=stderr');
 putenv('VIEW_COMPILED_PATH=/tmp/storage/framework/views');
+
 $_ENV['APP_STORAGE'] = '/tmp/storage';
+$_ENV['LOG_CHANNEL'] = 'stderr';
 $_ENV['VIEW_COMPILED_PATH'] = '/tmp/storage/framework/views';
 
-// 2. Buat struktur folder di /tmp secara otomatis jika belum ada
+// 2. Buat struktur direktori di /tmp jika belum ada
 $dirs = [
     '/tmp/storage',
     '/tmp/storage/app',
