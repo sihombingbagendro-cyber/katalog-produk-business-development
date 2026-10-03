@@ -276,13 +276,19 @@
 <footer class="bg-slate-950 text-slate-400 py-12 px-6 border-t border-slate-800/80">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         
+       
         <!-- Kolom 1: Profil / Branding -->
-        <div class="space-y-3">
-            <div class="flex items-center gap-2">
-                <img src="{{ asset('Assets/images/logo-hmps.png.jpeg') }}" alt="Logo HMPS MI" class="h-8 w-auto rounded">
-                <img src="{{ asset('Assets/images/logo-bd.png.png') }}" alt="Logo BD" class="h-8 w-auto rounded">
-                <span class="text-white font-bold tracking-wide text-lg">HMPS MI POLMED</span>
-            </div>
+        <!-- Kolom 1: Profil / Branding -->
+<div class="space-y-3">
+    <div class="flex items-center gap-2">
+        <img src="{{ asset('Assets/images/logo-hmps.jpeg') }}" alt="Logo HMPS MI" class="h-8 w-auto rounded">
+        <img src="{{ asset('Assets/images/logo-bd.png') }}" alt="Logo BD" class="h-8 w-auto rounded">
+        <span class="text-white font-bold tracking-wide text-lg">HMPS MI POLMED</span>
+    </div>
+</div>
+
+<!-- Foto Anggota -->
+<img src="{{ asset('Assets/images/foto-anggota.jpeg') }}" alt="Foto Anggota HMPS MI">
             <p class="text-sm text-slate-400 leading-relaxed">
                 Divisi Business Development HMPS MI 2026. Himpunan Mahasiswa Program Studi Manajemen Informatika POLMED.
             </p>
