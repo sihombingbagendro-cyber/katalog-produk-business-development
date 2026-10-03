@@ -278,21 +278,19 @@
         
        
         <!-- Kolom 1: Profil / Branding -->
-        <!-- Kolom 1: Profil / Branding -->
-<div class="space-y-3">
+      <div class="space-y-3">
     <div class="flex items-center gap-2">
         <img src="{{ asset('Assets/images/logo-hmps.jpeg') }}" alt="Logo HMPS MI" class="h-8 w-auto rounded">
         <img src="{{ asset('Assets/images/logo-bd.png') }}" alt="Logo BD" class="h-8 w-auto rounded">
         <span class="text-white font-bold tracking-wide text-lg">HMPS MI POLMED</span>
     </div>
+    <p class="text-sm text-slate-400 leading-relaxed">
+        Divisi Business Development HMPS MI 2026. Himpunan Mahasiswa Program Studi Manajemen Informatika POLMED.
+    </p>
 </div>
 
 <!-- Foto Anggota -->
-<img src="{{ asset('Assets/images/foto-anggota.jpeg') }}" alt="Foto Anggota HMPS MI">
-            <p class="text-sm text-slate-400 leading-relaxed">
-                Divisi Business Development HMPS MI 2026. Himpunan Mahasiswa Program Studi Manajemen Informatika POLMED.
-            </p>
-        </div>
+<img src="{{ asset('Assets/images/foto-anggota.jpeg') }}" alt="Foto Anggota HMPS MI" class="w-full h-auto rounded-lg shadow-lg">
 
         <!-- Kolom 2: Kontak WhatsApp -->
         <div class="space-y-3">
